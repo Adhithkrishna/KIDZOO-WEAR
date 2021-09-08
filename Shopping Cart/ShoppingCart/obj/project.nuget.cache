@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvJjrKFjgjmQ0/Gh2aodZ7T6SLkshRzZYAWqWXNWEwMSf2TU8BS4xGUCTR3FTCCUm3Cn9vx9zl/4631r5UoOcQ==",
+  "dgSpecHash": "tGlXdABmIUslxDzGlgcx1Z+nivmbl1m3+WqoQgpHY7bB5iyrga/etk56heL2x92fhilKvPYLsiZZ1HDGmZ5j+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\i5\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+  "projectFilePath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\ShoppingCart.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\i5\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\i5\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

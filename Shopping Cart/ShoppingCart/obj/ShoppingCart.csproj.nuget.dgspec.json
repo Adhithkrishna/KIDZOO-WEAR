@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\i5\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj": {}
+    "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\i5\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj": {
+    "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\i5\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "C:\\Users\\i5\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+        "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\ShoppingCart.csproj",
         "packagesPath": "C:\\Users\\i5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\i5\\source\\repos\\ShoppingCart\\ShoppingCart\\obj\\",
+        "outputPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\i5\\AppData\\Roaming\\NuGet\\NuGet.Config",
