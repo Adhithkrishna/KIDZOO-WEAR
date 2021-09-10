@@ -870,3 +870,5 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debu
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Product\Upsert.cshtml.g.cs
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
