@@ -37,12 +37,28 @@ namespace ShoppingCart.Controllers
 
         public IActionResult Details(int id)
         {
+
+            List<Shoppingcart> shoppingCartList = new List<Shoppingcart>();
+            if (HttpContext.Session.Get<IEnumerable<Shoppingcart>>(WC.SessionCart) != null
+                && HttpContext.Session.Get<IEnumerable<Shoppingcart>>(WC.SessionCart).Count() > 0)
+            {
+                shoppingCartList = HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart);
+            }
             DetailsVM DetailsVM = new DetailsVM()
             {
                 Product = _db.Product.Include(u => u.Category)
                  .Where(u => u.Id == id).FirstOrDefault(),
                 ExistInCart = false
             };
+
+            foreach(var item in shoppingCartList)
+            {
+                if(item.ProductId == id)
+                {
+                    DetailsVM.ExistInCart = true;
+                }
+            }
+
             return View(DetailsVM);
         }
 
@@ -56,6 +72,26 @@ namespace ShoppingCart.Controllers
                 shoppingCartList = HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart);
             }
             shoppingCartList.Add(new Shoppingcart { ProductId = id });
+            HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult RemoveFromCart(int id)
+        {
+            List<Shoppingcart> shoppingCartList = new List<Shoppingcart>();
+            if (HttpContext.Session.Get<IEnumerable<Shoppingcart>>(WC.SessionCart) != null
+                && HttpContext.Session.Get<IEnumerable<Shoppingcart>>(WC.SessionCart).Count() > 0)
+            {
+                shoppingCartList = HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart);
+            }
+
+            var itemToRemove = shoppingCartList.SingleOrDefault(r => r.ProductId == id);
+            if (itemToRemove != null)
+            {
+                shoppingCartList.Remove(itemToRemove);
+            }
+
+            
             HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
             return RedirectToAction(nameof(Index));
         }
