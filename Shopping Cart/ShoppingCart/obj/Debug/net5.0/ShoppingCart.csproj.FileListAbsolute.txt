@@ -873,7 +873,6 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debu
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
-E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\ShoppingCart.csproj.AssemblyReference.cache
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\refs\System.Text.Json.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
@@ -917,3 +916,7 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debu
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\ShoppingCart.csproj.AssemblyReference.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\DryIoc.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs

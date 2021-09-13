@@ -32,7 +32,8 @@ namespace ShoppingCart
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(
                 Configuration.GetConnectionString("Defaultconnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddIdentity<IdentityUser,IdentityRole>()
+                .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddHttpContextAccessor();
