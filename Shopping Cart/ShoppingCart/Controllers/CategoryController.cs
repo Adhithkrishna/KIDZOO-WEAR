@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ShoppingCart.Data;
-using ShoppingCart.Models;
+using ShoppingCart_DataAccess;
+using ShoppingCart_Models;
+using ShoppingCart_Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;

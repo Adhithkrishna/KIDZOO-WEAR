@@ -1,0 +1,12 @@
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.AssemblyInfoInputs.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.AssemblyInfo.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.csproj.CoreCompileInputs.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.csproj.AssemblyReference.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\bin\Debug\net5.0\ShoppingCart_Models.deps.json
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\bin\Debug\net5.0\ShoppingCart_Models.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\bin\Debug\net5.0\ref\ShoppingCart_Models.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\bin\Debug\net5.0\ShoppingCart_Models.pdb
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ref\ShoppingCart_Models.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Models\obj\Debug\net5.0\ShoppingCart_Models.pdb

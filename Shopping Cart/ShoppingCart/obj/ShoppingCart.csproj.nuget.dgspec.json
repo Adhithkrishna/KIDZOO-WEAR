@@ -27,7 +27,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_DataAccess\\ShoppingCart_DataAccess.csproj": {
+                "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_DataAccess\\ShoppingCart_DataAccess.csproj"
+              },
+              "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj": {
+                "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj"
+              },
+              "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj": {
+                "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,37 +56,37 @@
             },
             "Mailjet.Api": {
               "target": "Package",
-              "version": "[1.2.2, )"
+              "version": "[2.0.2, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -97,6 +107,210 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_DataAccess\\ShoppingCart_DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_DataAccess\\ShoppingCart_DataAccess.csproj",
+        "projectName": "ShoppingCart_DataAccess",
+        "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_DataAccess\\ShoppingCart_DataAccess.csproj",
+        "packagesPath": "C:\\Users\\i5\\.nuget\\packages\\",
+        "outputPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\i5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj": {
+                "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj",
+        "projectName": "ShoppingCart_Models",
+        "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj",
+        "packagesPath": "C:\\Users\\i5\\.nuget\\packages\\",
+        "outputPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\i5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj",
+        "projectName": "ShoppingCart_Utility",
+        "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj",
+        "packagesPath": "C:\\Users\\i5\\.nuget\\packages\\",
+        "outputPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\i5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Mailjet.Api": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

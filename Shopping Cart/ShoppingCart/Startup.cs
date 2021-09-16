@@ -9,12 +9,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
-using ShoppingCart.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ShoppingCart.Utility;
+using ShoppingCart_Utility;
+using ShoppingCart_DataAccess;
 
 namespace ShoppingCart
 {

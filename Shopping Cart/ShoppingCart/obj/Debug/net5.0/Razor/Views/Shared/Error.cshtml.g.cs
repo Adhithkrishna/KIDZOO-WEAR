@@ -21,13 +21,13 @@ using ShoppingCart;
 #nullable disable
 #nullable restore
 #line 2 "E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\Views\_ViewImports.cshtml"
-using ShoppingCart.Models;
+using ShoppingCart_Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a65a8198b297c3ea7f3bc4f7f8cdac67c148a265", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"449e3b16f7829708bb6b008f90b43f52ce26fdfb", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

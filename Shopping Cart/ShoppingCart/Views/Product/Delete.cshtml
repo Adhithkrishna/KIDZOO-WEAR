@@ -1,5 +1,5 @@
-﻿@model ShoppingCart.Models.Product
-
+﻿@model ShoppingCart_Models.Product
+@using ShoppingCart_Utility
 
 <form method="post">
     <input asp-for="Id" hidden />
@@ -71,19 +71,19 @@
         </div>
 </form>
 
-    @section Scripts{
+@section Scripts{
 
     @{
         <partial name="_ValidationScriptsPartial" />
     }
     <script>
-    $(document).ready(function () {
-        $('.summernote').summernote({
-            height: 250,
-            disable: true
+        $(document).ready(function () {
+            $('.summernote').summernote({
+                height: 250,
+                disable: true
+            });
         });
-    });
-    
-</script>
+
+    </script>
 
 }

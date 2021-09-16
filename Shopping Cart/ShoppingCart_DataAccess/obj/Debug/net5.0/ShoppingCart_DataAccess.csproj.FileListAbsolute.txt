@@ -1,0 +1,15 @@
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.csproj.AssemblyReference.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.AssemblyInfoInputs.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.AssemblyInfo.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.csproj.CoreCompileInputs.cache
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_DataAccess.deps.json
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_DataAccess.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ref\ShoppingCart_DataAccess.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_DataAccess.pdb
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_Models.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_Models.pdb
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.csproj.CopyComplete
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ref\ShoppingCart_DataAccess.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.pdb

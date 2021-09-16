@@ -21,7 +21,7 @@ using ShoppingCart;
 #nullable disable
 #nullable restore
 #line 2 "E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\Views\_ViewImports.cshtml"
-using ShoppingCart.Models;
+using ShoppingCart_Models;
 
 #line default
 #line hidden
@@ -34,7 +34,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"510923309d60b9fda1e65120e80d776113f01704", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a65a8198b297c3ea7f3bc4f7f8cdac67c148a265", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"449e3b16f7829708bb6b008f90b43f52ce26fdfb", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("manage"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

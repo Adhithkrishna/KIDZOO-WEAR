@@ -13,7 +13,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using ShoppingCart.Models;
+using ShoppingCart_Models;
+using ShoppingCart_Utility;
 
 namespace ShoppingCart.Areas.Identity.Pages.Account
 {
