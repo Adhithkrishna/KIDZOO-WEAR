@@ -15,6 +15,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using ShoppingCart_Utility;
 using ShoppingCart_DataAccess;
+using ShoppingCart_DataAccess.Repository.IRepository;
+using ShoppingCart_DataAccess.Repository;
 
 namespace ShoppingCart
 {
@@ -46,6 +48,9 @@ namespace ShoppingCart
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+
             services.AddControllersWithViews();
         }
 

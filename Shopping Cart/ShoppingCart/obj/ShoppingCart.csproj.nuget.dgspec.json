@@ -56,7 +56,7 @@
             },
             "Mailjet.Api": {
               "target": "Package",
-              "version": "[2.0.2, )"
+              "version": "[1.2.2, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -141,6 +141,9 @@
             "projectReferences": {
               "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj": {
                 "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Models\\ShoppingCart_Models.csproj"
+              },
+              "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj": {
+                "projectPath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart_Utility\\ShoppingCart_Utility.csproj"
               }
             }
           }

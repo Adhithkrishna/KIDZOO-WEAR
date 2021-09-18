@@ -13,3 +13,5 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAcce
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ref\ShoppingCart_DataAccess.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\obj\Debug\net5.0\ShoppingCart_DataAccess.pdb
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_Utility.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_DataAccess\bin\Debug\net5.0\ShoppingCart_Utility.pdb

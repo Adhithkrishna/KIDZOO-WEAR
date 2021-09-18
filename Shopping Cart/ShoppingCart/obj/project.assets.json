@@ -23,11 +23,11 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "Mailjet.Api/2.0.2": {
+      "Mailjet.Api/1.2.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "9.0.1"
         },
         "compile": {
           "lib/netstandard1.1/Mailjet.Client.dll": {}
@@ -1505,7 +1505,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -3264,7 +3264,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
-          "ShoppingCart_Models": "1.0.0"
+          "ShoppingCart_Models": "1.0.0",
+          "ShoppingCart_Utility": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ShoppingCart_DataAccess.dll": {}
@@ -3351,16 +3352,16 @@
         "logo.png"
       ]
     },
-    "Mailjet.Api/2.0.2": {
-      "sha512": "FEHae1kk903JhRounybEA6kSbOB87jk8kiBLrh2iPdtP/Qp25mT3EdzgBwZKzISsz3M8nyJcB8M8ygVzE/87MQ==",
+    "Mailjet.Api/1.2.2": {
+      "sha512": "zk52jjgFqdLmKFo1NAkMd0tSxdPK0MI4CTgwgzl7bAyCLnyYeurYcGLrjtISTAp4aM73hs7XuLTfDzDYYpO1Mw==",
       "type": "package",
-      "path": "mailjet.api/2.0.2",
+      "path": "mailjet.api/1.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Mailjet.Client.dll",
         "lib/netstandard1.1/Mailjet.Client.dll",
-        "mailjet.api.2.0.2.nupkg.sha512",
+        "mailjet.api.1.2.2.nupkg.sha512",
         "mailjet.api.nuspec"
       ]
     },
@@ -5541,10 +5542,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5567,9 +5568,8 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
@@ -10189,7 +10189,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DryIoc.dll >= 4.8.1",
-      "Mailjet.Api >= 2.0.2",
+      "Mailjet.Api >= 1.2.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.10",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.10",
@@ -10258,7 +10258,7 @@
           },
           "Mailjet.Api": {
             "target": "Package",
-            "version": "[2.0.2, )"
+            "version": "[1.2.2, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

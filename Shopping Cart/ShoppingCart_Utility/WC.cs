@@ -14,5 +14,7 @@ namespace ShoppingCart_Utility
         public const string CustomerRole = "Customer";
 
         public static string EmailAdmin = "adhith.devops@gmail.com";
+
+        public const string CategoryName = "Category";
     }
 }
