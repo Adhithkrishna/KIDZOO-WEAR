@@ -9,6 +9,7 @@ namespace ShoppingCart_Utility
     {
         public static string Imagepath = @"\Images\Product\";
         public static string SessionCart = "ShoppingCartSession";
+        public static string SessionInquiryId = "InquirySession";
 
         public const string AdminRole = "Admin";
         public const string CustomerRole = "Customer";
