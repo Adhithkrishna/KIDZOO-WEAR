@@ -66,7 +66,7 @@
                         <li>
                             @if (HttpContextAccessor.HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart) != null)
                             {
-                                <a class="text-white" asp-action="Index" asp-controller="Cart" class="nav-link">
+                                <a  asp-action="Index" asp-controller="Cart" class="nav-link">
                                     @{
                                         var count = HttpContextAccessor.HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart).Count;
                                     }
@@ -89,6 +89,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            <partial name="_Notifications" />
             @RenderBody()
         </main>
     </div>

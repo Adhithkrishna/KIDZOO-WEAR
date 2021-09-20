@@ -932,3 +932,4 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debu
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\ShoppingCart_DataAccess.pdb
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Inquiry\Index.cshtml.g.cs
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Inquiry\Details.cshtml.g.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Shared\_Notifications.cshtml.g.cs

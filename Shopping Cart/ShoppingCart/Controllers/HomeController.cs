@@ -65,7 +65,7 @@ namespace ShoppingCart.Controllers
         }
 
         [HttpPost, ActionName("Details")]
-        public IActionResult DetailsPost(int id)
+        public IActionResult DetailsPost(int id,DetailsVM detailsVM)
         {
             List<Shoppingcart> shoppingCartList = new List<Shoppingcart>();
             if (HttpContext.Session.Get<IEnumerable<Shoppingcart>>(WC.SessionCart) != null
@@ -73,7 +73,7 @@ namespace ShoppingCart.Controllers
             {
                 shoppingCartList = HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart);
             }
-            shoppingCartList.Add(new Shoppingcart { ProductId = id });
+            shoppingCartList.Add(new Shoppingcart { ProductId = id, item = detailsVM.Product.Tempitem});
             HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
             return RedirectToAction(nameof(Index));
         }
@@ -95,6 +95,7 @@ namespace ShoppingCart.Controllers
 
             
             HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
+            TempData[WC.Success] = "Item removed from cart successfully";
             return RedirectToAction(nameof(Index));
         }
         public IActionResult Privacy()

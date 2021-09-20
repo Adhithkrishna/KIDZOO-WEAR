@@ -131,7 +131,7 @@ namespace ShoppingCart.Controllers
                     }
                     _prodRepo.Update(productVM.Product);
                 }
-
+                TempData[WC.Success] = "Action completed successfully";
 
                 _prodRepo.Save();
                 return RedirectToAction("Index");
@@ -178,6 +178,7 @@ namespace ShoppingCart.Controllers
             {
                 _prodRepo.Remove(obj);
                 _prodRepo.Save();
+                TempData[WC.Success] = "Action completed successfully";
                 return RedirectToAction("Index");
             }
 

@@ -8,5 +8,7 @@ namespace ShoppingCart_Models
     public class Shoppingcart
     {
         public int ProductId { get; set; }
+
+        public int item { get; set; }
     }
 }
