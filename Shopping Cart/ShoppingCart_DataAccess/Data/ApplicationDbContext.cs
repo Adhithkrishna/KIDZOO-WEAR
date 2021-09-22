@@ -17,8 +17,9 @@ namespace ShoppingCart_DataAccess
         public DbSet<Product> Product { get; set; }
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
         public DbSet<InquiryHeader> InquiryHeader { get; set; }
-
         public DbSet<InquiryDetails> InquiryDetails { get; set; }
+        public DbSet<OrderHeader> OrderHeader { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
     }
     }
 
