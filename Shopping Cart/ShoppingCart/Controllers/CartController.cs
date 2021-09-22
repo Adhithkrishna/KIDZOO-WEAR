@@ -51,8 +51,12 @@ namespace ShoppingCart.Controllers
                 //session exists
                 shoppingCartList = HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart);
             }
+
             List<int> prodInCart = shoppingCartList.Select(i =>i.ProductId).ToList();
             IEnumerable<Product> prodListTemp = _prodRepo.GetAll(u => prodInCart.Contains(u.Id));
+            
+
+            
             IList<Product> prodList = new List<Product>();
 
             foreach (var cartObj in shoppingCartList)
@@ -68,8 +72,15 @@ namespace ShoppingCart.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("Index")]
-        public IActionResult IndexPost()
+        public IActionResult IndexPost(IEnumerable<Product> ProdList) 
         {
+            List<Shoppingcart> shoppingCartList = new List<Shoppingcart>();
+            foreach (Product prod in ProdList)
+            {
+                shoppingCartList.Add(new Shoppingcart { ProductId = prod.Id, item = prod.Tempitem });
+            }
+
+            HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
             return RedirectToAction(nameof(Summary));
         }
 
@@ -186,6 +197,20 @@ namespace ShoppingCart.Controllers
                 shoppingCartList = HttpContext.Session.Get<List<Shoppingcart>>(WC.SessionCart);
             }
             shoppingCartList.Remove(shoppingCartList.FirstOrDefault(u => u.ProductId == id));
+            HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult UpdateCart(IEnumerable<Product> ProdList)
+        {
+            List<Shoppingcart> shoppingCartList = new List<Shoppingcart>();
+            foreach(Product prod in ProdList)
+            {
+                shoppingCartList.Add(new Shoppingcart { ProductId = prod.Id, item = prod.Tempitem });
+            }
+
             HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
             return RedirectToAction(nameof(Index));
         }

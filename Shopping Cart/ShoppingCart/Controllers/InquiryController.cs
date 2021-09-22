@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingCart.Controllers
 {
+    [Authorize(Roles =WC.AdminRole)]
     public class InquiryController : Controller
     {
         private readonly IInquiryHeaderRepository _inqHRepo;
