@@ -10,8 +10,8 @@ using ShoppingCart_DataAccess;
 namespace ShoppingCart_DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210922203554_PushOrderHeaderAndDetailToDb")]
-    partial class PushOrderHeaderAndDetailToDb
+    [Migration("20210923101614_PushOrderHeaderAndDetailsToDb")]
+    partial class PushOrderHeaderAndDetailsToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -306,13 +306,13 @@ namespace ShoppingCart_DataAccess.Migrations
                     b.Property<int>("OrderHeaderId")
                         .HasColumnType("int");
 
-                    b.Property<double>("PricePerSqFt")
+                    b.Property<double>("PricePeritem")
                         .HasColumnType("float");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Sqft")
+                    b.Property<int>("item")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

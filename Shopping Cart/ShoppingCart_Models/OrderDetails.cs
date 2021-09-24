@@ -24,7 +24,7 @@ namespace ShoppingCart_Models
         [ForeignKey("ProductId")]
         public Product Product { get; set; }
 
-        public int Sqft { get; set; }
-        public double PricePerSqFt { get; set; }
+        public int item { get; set; }
+        public double PricePeritem { get; set; }
     }
 }

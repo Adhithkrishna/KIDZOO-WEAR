@@ -1,4 +1,3 @@
-E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.csproj.AssemblyReference.cache
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.GeneratedMSBuildEditorConfig.editorconfig
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.AssemblyInfoInputs.cache
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.AssemblyInfo.cs
@@ -10,3 +9,4 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ref\ShoppingCart_Utility.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.pdb
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart_Utility\obj\Debug\net5.0\ShoppingCart_Utility.csproj.AssemblyReference.cache

@@ -22,6 +22,6 @@ namespace ShoppingCart_DataAccess.Repository
         public void Update(OrderDetails obj)
         {
             _db.OrderDetails.Update(obj);
-        }
+        }      
     }
 }

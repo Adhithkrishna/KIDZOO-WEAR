@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ShoppingCart_DataAccess.Migrations
 {
-    public partial class PushOrderHeaderAndDetailToDb : Migration
+    public partial class PushOrderHeaderAndDetailsToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -47,8 +47,8 @@ namespace ShoppingCart_DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     OrderHeaderId = table.Column<int>(type: "int", nullable: false),
                     ProductId = table.Column<int>(type: "int", nullable: false),
-                    Sqft = table.Column<int>(type: "int", nullable: false),
-                    PricePerSqFt = table.Column<double>(type: "float", nullable: false)
+                    item = table.Column<int>(type: "int", nullable: false),
+                    PricePeritem = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {

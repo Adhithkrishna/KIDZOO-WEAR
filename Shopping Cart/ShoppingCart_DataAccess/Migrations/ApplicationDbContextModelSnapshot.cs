@@ -304,13 +304,13 @@ namespace ShoppingCart_DataAccess.Migrations
                     b.Property<int>("OrderHeaderId")
                         .HasColumnType("int");
 
-                    b.Property<double>("PricePerSqFt")
+                    b.Property<double>("PricePeritem")
                         .HasColumnType("float");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Sqft")
+                    b.Property<int>("item")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
