@@ -936,3 +936,6 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debu
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Braintree.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Syncfusion.EJ2.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Syncfusion.Licensing.dll
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs

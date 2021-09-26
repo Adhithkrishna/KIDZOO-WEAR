@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingCart_DataAccess.Repository.IRepository;
 using ShoppingCart_Models.ViewModels;
+using ShoppingCart_Utility;
 using ShoppingCart_Utility.BrainTree;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,8 @@ namespace ShoppingCart.Controllers
         private readonly IOrderDetailsRepository _orderDRepo;
         private readonly IBrainTreeGate _brain;
 
+        [BindProperty]
+        public OrderVM OrderVM { get; set; }
 
         public OrderController(
             IOrderHeaderRepository orderHRepo, IOrderDetailsRepository orderDRepo, IBrainTreeGate brain)
@@ -26,9 +29,49 @@ namespace ShoppingCart.Controllers
             _orderDRepo = orderDRepo;
 
         }
-        public IActionResult Index()
+        public IActionResult Index(string searchName = null, string searchEmail = null, string searchPhone = null, string Status = null)
         {
-            return View();
+            OrderListVM orderListVM = new OrderListVM()
+            {
+                OrderHList = _orderHRepo.GetAll(),
+                StatusList = WC.listStatus.ToList().Select(i => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+                {
+                    Text = i,
+                    Value = i
+                })
+            };
+
+            if (!string.IsNullOrEmpty(searchName))
+            {
+                orderListVM.OrderHList = orderListVM.OrderHList.Where(u => u.FullName.ToLower().Contains(searchName.ToLower()));
+            }
+            if (!string.IsNullOrEmpty(searchEmail))
+            {
+                orderListVM.OrderHList = orderListVM.OrderHList.Where(u => u.Email.ToLower().Contains(searchEmail.ToLower()));
+            }
+            if (!string.IsNullOrEmpty(searchPhone))
+            {
+                orderListVM.OrderHList = orderListVM.OrderHList.Where(u => u.PhoneNumber.ToLower().Contains(searchPhone.ToLower()));
+            }
+            if (!string.IsNullOrEmpty(Status) && Status != "--Order Status--")
+            {
+                orderListVM.OrderHList = orderListVM.OrderHList.Where(u => u.OrderStatus.ToLower().Contains(Status.ToLower()));
+            }
+
+            return View(orderListVM);
         }
+
+
+        public IActionResult Details(int id)
+        {
+            OrderVM = new OrderVM()
+            {
+                OrderHeader = _orderHRepo.FirstOrDefault(u => u.Id == id),
+                OrderDetails = _orderDRepo.GetAll(o => o.OrderHeaderId == id, includeProperties: "Product")
+            };
+
+            return View(OrderVM);
+        }
+    
     }
 }

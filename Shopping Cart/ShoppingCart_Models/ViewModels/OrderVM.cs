@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +8,8 @@ namespace ShoppingCart_Models.ViewModels
 {
     public class OrderVM
     {
-        public IEnumerable<OrderHeader> OrderHList { get; set; }
-        public IEnumerable<SelectListItem> StatusList { get; set; }
-        public string Status { get; set; }
+        public OrderHeader OrderHeader { get; set; }
+
+        public IEnumerable<OrderDetails> OrderDetails { get; set; }
     }
 }

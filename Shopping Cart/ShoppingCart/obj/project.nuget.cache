@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MZpWdf8+OmipXmJZ5od5R5DHWCN3i6lsEhgOzrnXsgrIRmfN7fnMdK5pzMT5S1DkJqE74Cj2ppkWqzYSA4CjzA==",
+  "dgSpecHash": "4VLD5OwmW6YoPCdpAMxE9CXYouLixaXd9r2ZyrMzjjr7QNDjbbHB5mUivbK8iRYqAMS7r9uP8MHS4K4pyZbCvw==",
   "success": true,
   "projectFilePath": "E:\\Shopping Cart\\shopping-cart-code-snippets\\Shopping Cart\\ShoppingCart\\ShoppingCart.csproj",
   "expectedPackageFiles": [
@@ -118,6 +118,8 @@
     "C:\\Users\\i5\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\i5\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\i5\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\i5\\.nuget\\packages\\syncfusion.ej2.aspnet.core\\19.2.0.62\\syncfusion.ej2.aspnet.core.19.2.0.62.nupkg.sha512",
+    "C:\\Users\\i5\\.nuget\\packages\\syncfusion.licensing\\19.2.0.62\\syncfusion.licensing.19.2.0.62.nupkg.sha512",
     "C:\\Users\\i5\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\i5\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\i5\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
