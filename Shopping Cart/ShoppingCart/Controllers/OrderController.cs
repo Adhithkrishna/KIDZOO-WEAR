@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingCart_DataAccess.Repository.IRepository;
+using ShoppingCart_Models;
 using ShoppingCart_Models.ViewModels;
 using ShoppingCart_Utility;
 using ShoppingCart_Utility.BrainTree;
@@ -9,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Braintree;
 
 namespace ShoppingCart.Controllers
 {
@@ -72,6 +74,68 @@ namespace ShoppingCart.Controllers
 
             return View(OrderVM);
         }
-    
+
+        [HttpPost]
+        public IActionResult StartProcessing()
+        {
+            OrderHeader orderHeader = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
+            orderHeader.OrderStatus = WC.StatusInProcess;
+            _orderHRepo.Save();
+            TempData[WC.Success] = "Order is In Process";
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public IActionResult ShipOrder()
+        {
+            OrderHeader orderHeader = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
+            orderHeader.OrderStatus = WC.StatusShipped;
+            orderHeader.ShippingDate = DateTime.Now;
+            _orderHRepo.Save();
+            TempData[WC.Success] = "Order Shipped Successfully";
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+         public IActionResult CancelOrder()
+        {
+            OrderHeader orderHeader = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
+
+            var gateway = _brain.GetGateway();
+            Transaction transaction = gateway.Transaction.Find(orderHeader.TransactionId);
+
+            if (transaction.Status == TransactionStatus.AUTHORIZED || transaction.Status == TransactionStatus.SUBMITTED_FOR_SETTLEMENT)
+            {
+                //no refund
+                Result<Transaction> resultvoid = gateway.Transaction.Void(orderHeader.TransactionId);
+            }
+            else
+            {
+                //refund
+                Result<Transaction> resultRefund = gateway.Transaction.Refund(orderHeader.TransactionId);
+            }
+            orderHeader.OrderStatus = WC.StatusRefunded;
+            _orderHRepo.Save();
+            TempData[WC.Success] = "Order Cancelled Successfully";
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public IActionResult UpdateOrderDetails()
+        {
+            OrderHeader orderHeaderFromDb = _orderHRepo.FirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id);
+            orderHeaderFromDb.FullName = OrderVM.OrderHeader.FullName;
+            orderHeaderFromDb.PhoneNumber = OrderVM.OrderHeader.PhoneNumber;
+            orderHeaderFromDb.StreetAddress = OrderVM.OrderHeader.StreetAddress;
+            orderHeaderFromDb.City = OrderVM.OrderHeader.City;
+            orderHeaderFromDb.State = OrderVM.OrderHeader.State;
+            orderHeaderFromDb.PostalCode = OrderVM.OrderHeader.PostalCode;
+            orderHeaderFromDb.Email = OrderVM.OrderHeader.Email;
+
+            _orderHRepo.Save();
+            TempData[WC.Success] = "Order Details Updated Successfully";
+            return RedirectToAction("Details", "Order", new { id = orderHeaderFromDb.Id });
+        }
+
     }
 }

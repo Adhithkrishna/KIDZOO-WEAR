@@ -28,7 +28,7 @@ namespace ShoppingCart_Models
         public virtual Category Category { get; set; }
 
         [NotMapped]
-        [Range(1,10000)]
+        [Range(1,10000,ErrorMessage ="item must be grater than 0")]
         public int Tempitem { get; set; }
     }
 }
