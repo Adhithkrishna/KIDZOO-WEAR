@@ -939,3 +939,4 @@ E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debu
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Syncfusion.EJ2.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\bin\Debug\net5.0\Syncfusion.Licensing.dll
 E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs
+E:\Shopping Cart\shopping-cart-code-snippets\Shopping Cart\ShoppingCart\obj\Debug\net5.0\Razor\Views\Order\Details.cshtml.g.cs
